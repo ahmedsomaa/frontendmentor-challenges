@@ -1,60 +1,7 @@
-/* -----TYPOGRAPHY----- */
-@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
-
-/* ---------CSS RESET--------- */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* ---------ROOT STYLES--------- */
-:root {
-  font-size: 16px;
-  font-family: "Young Serif", serif;
-
-  /* CSS VARIABLES */
-  --border-radius: 15px;
-  --white: hsl(0, 0%, 90%);
-  --black: hsl(179, 100%, 0%);
-  --newbie: rgb(106, 190, 205);
-  --junior: rgb(170, 215, 66);
-  --intermediate: rgb(241, 182, 4);
-  --advanced: rgb(244, 137, 37);
-}
+/* ---------GLOBAL STYLES---------*/
+@import url(./globals.css);
 
 /* ---------STYLES---------*/
-body {
-  display: flex;
-  min-height: 100vh;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  background-color: var(--white);
-}
-
-main {
-  gap: 1rem;
-  width: 100%;
-  display: flex;
-  padding: 2rem;
-  max-width: 768px;
-  flex-direction: column;
-  background-color: white;
-  border-radius: var(--border-radius);
-  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-}
-
-img {
-  width: 100%;
-  border-radius: var(--border-radius);
-}
-
-h1 {
-  font-size: 2rem;
-  text-align: center;
-}
-
 ul {
   gap: 1rem;
   display: grid;
