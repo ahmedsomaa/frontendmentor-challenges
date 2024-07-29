@@ -25,7 +25,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 #### Mobile
 
-![QR Code Component Mobile Screenshot](./img/desktop-screenshot.png)
+![QR Code Component Mobile Screenshot](./img/mobile-screenshot.png)
 
 ### Links
 

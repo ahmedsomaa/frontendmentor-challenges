@@ -1,0 +1,161 @@
+/*********RESET*********/
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+/*********COLORS*********/
+@property --primary {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: hsl(47, 88%, 63%);
+}
+
+@property --white {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: hsl(0, 0%, 100%);
+}
+
+@property --grey {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: hsl(0, 0%, 50%);
+}
+
+@property --black {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: hsl(0, 0%, 7%);
+}
+
+/*********TYPOGRAPHY*********/
+@font-face {
+  font-weight: 500 800;
+  font-family: "Figtree";
+  src: url(./fonts/Figtree-VariableFont_wght.ttf);
+}
+
+/*********STYLES*********/
+body {
+  padding: 1rem;
+  background-color: var(--primary);
+  font-family: "Figtree", sans-serif;
+}
+
+main {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card {
+  padding: 24px;
+  max-width: 327px;
+  border-radius: 20px;
+  background-color: var(--white);
+  border: 1px solid var(--black);
+  box-shadow: 6px 6px var(--black);
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: 12px 12px var(--black);
+  transition: box-shadow 0.3s ease;
+}
+
+.card__container {
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__img {
+  border-radius: 10px;
+}
+
+.card__content {
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__content__category {
+  width: fit-content;
+  padding: 4px 12px;
+  border-radius: 4px;
+  background-color: var(--primary);
+}
+
+.card__content__category > span {
+  font-weight: 800;
+  font-size: 0.875rem;
+}
+
+.card__content__publishdate {
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+.card__content__title {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.card__content__title:hover {
+  cursor: pointer;
+  color: var(--primary);
+}
+
+.card__content__title:focus {
+  cursor: pointer;
+  color: var(--primary);
+}
+
+.card__content__description {
+  font-weight: 500;
+  color: var(--grey);
+}
+
+.card__author {
+  gap: 12px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.card__author__pic {
+  border-radius: 50%;
+}
+
+.card__author__name {
+  font-weight: 800;
+  font-size: 0.875rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .card {
+    max-width: 80%;
+    margin: auto 2rem;
+  }
+
+  .card__content__category > span {
+    font-size: 0.75rem;
+  }
+
+  .card__content__publishdate {
+    font-size: 0.75rem;
+  }
+
+  .card__content__title {
+    font-size: 1.25rem;
+    text-wrap: nowrap;
+  }
+
+  .card__content__description {
+    font-size: 0.875rem;
+  }
+}

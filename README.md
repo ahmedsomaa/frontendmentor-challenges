@@ -4,6 +4,7 @@ This document lists the challenges completed on Frontend Mentor, showcasing the 
 
 ## List
 
-| #   | Level  | Code                                                 | Demo                                                   |
-| --- | ------ | ---------------------------------------------------- | ------------------------------------------------------ |
-| 01  | Newbie | [QR Code Component](./src/newbie/qr-code-component/) | [Live Demo](./src/newbie/qr-code-component/index.html) |
+| #   | Level  | Code                                                 | Demo                                                                                             |
+| --- | ------ | ---------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| 01  | Newbie | [QR Code Component](./src/newbie/qr-code-component/) | [Live Demo](https://ahmedsomaa.github.io/frontendmentor-challengs/src/newbie/qr-code-component/) |
+| 02  | Newbie | [Blog Preview Card](./src/newbie/blog-preview-card/) | [Live Demo](https://ahmedsomaa.github.io/frontendmentor-challengs/src/newbie/blog-preview-card/) |
