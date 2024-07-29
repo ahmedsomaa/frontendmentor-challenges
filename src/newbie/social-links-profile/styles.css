@@ -1,0 +1,103 @@
+/* TYPOGRAPHY */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* COLORS */
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey-700: hsl(0, 0%, 20%);
+  --grey-800: hsl(0, 0%, 12%);
+  --grey-900: hsl(0, 0%, 8%);
+}
+
+/* STYLES */
+body {
+  display: flex;
+  font-size: 16px;
+  min-height: 100vh;
+  color: var(--white);
+  align-items: center;
+  font-family: "Inter";
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--grey-900);
+}
+
+main {
+  gap: 20px;
+  width: 100%;
+  display: flex;
+  max-width: 20rem;
+  padding: 1.5rem;
+  align-items: center;
+  border-radius: 10px;
+  flex-direction: column;
+  background-color: var(--grey-800);
+}
+
+img {
+  border-radius: 50%;
+}
+
+div {
+  text-align: center;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+p {
+  text-wrap: nowrap;
+  font-size: 0.875rem;
+}
+
+div > p {
+  margin-top: 5px;
+  font-weight: 600;
+  color: var(--green);
+}
+
+ul {
+  width: 100%;
+  list-style: none;
+}
+
+li {
+  padding: 10px;
+  margin: 15px 0px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: var(--grey-700);
+}
+
+li:hover {
+  cursor: pointer;
+  color: var(--white);
+  background-color: var(--green);
+}
+
+li:hover {
+  cursor: pointer;
+  color: var(--grey-900);
+  background-color: var(--green);
+}
+
+a {
+  color: inherit;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 480px) {
+  main {
+    width: 95%;
+  }
+}
