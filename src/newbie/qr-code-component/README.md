@@ -25,12 +25,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 #### Mobile
 
-![QR Code Component Mobile Screenshot](./img/mobile-screenshot.png)
+![QR Code Component Mobile Screenshot](./img/desktop-screenshot.png)
 
 ### Links
 
 - Solution URL: [Solution](https://github.com/ahmedsomaa/frontendmentor-challengs/tree/main/src/newbie/qr-code-component)
-- Live Site URL: [Demo](https://ahmedsomaa.github.io/frontendmentor-challengs/src/newbie/qr-code-component/index.html)
+- Live Site URL: [Demo](https://ahmedsomaa.github.io/frontendmentor-challengs/src/newbie/qr-code-component/)
 
 ## My process
 
