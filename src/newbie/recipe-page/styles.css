@@ -1,0 +1,193 @@
+/* -----TYPOGRAPHY----- */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap");
+
+/* -----CSS RESET----- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* -----COLORS----- */
+:root {
+  --border-radius-10: 10px;
+  --white: hsl(0, 0%, 100%);
+  --stone-100: hsl(30, 54%, 90%);
+  --stone-150: hsl(30, 18%, 87%);
+  --stone-600: hsl(30, 10%, 34%);
+  --stone-900: hsl(24, 5%, 18%);
+  --brown-800: hsl(14, 45%, 36%);
+  --rose-50: hsl(330, 100%, 98%);
+  --rose-800: hsl(332, 51%, 32%);
+}
+
+/* ----------GENERAL STYLES---------- */
+body {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Outfit", sans-serif;
+}
+
+main {
+  width: 100%;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+  font-family: "Young Serif", serif;
+}
+
+h1 {
+  color: var(--stone-900);
+}
+
+h2 {
+  color: var(--brown-800);
+}
+
+p,
+span,
+li,
+td {
+  line-height: 1.5;
+  color: var(--stone-600);
+}
+
+ul,
+ol {
+  padding: 1rem;
+  line-height: 1.5;
+}
+
+li:not(:last-child) {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+li {
+  padding-left: 20px;
+}
+
+li::marker {
+  color: var(--brown-800);
+}
+
+ol li::marker {
+  font-weight: 600;
+}
+
+span {
+  font-weight: 700;
+}
+
+hr {
+  opacity: 20%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border: 0.5px solid var(--stone-600);
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+section {
+  padding: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr:not(:last-child) {
+  border-bottom: 0.5px solid var(--stone-600);
+}
+
+/* ----------SMALLER SCREENS STYLES---------- */
+img {
+  width: 100%;
+  height: auto;
+}
+
+#description {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#preparation-time {
+  gap: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--rose-50);
+  border-radius: var(--border-radius-10);
+}
+
+#preparation-time h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--rose-800);
+  font-family: "Outfit", sans-serif;
+}
+
+#preparation-time ul li::marker {
+  color: var(--rose-800);
+}
+
+#ingredients {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#ingredients ul {
+  list-style: square;
+}
+
+#nutrition {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#nutrition tr td:nth-child(odd) {
+  padding: 0.5rem 1rem 0.5rem 2rem;
+}
+
+#nutrition tr td:nth-child(even) {
+  font-weight: 700;
+  color: var(--brown-800);
+  padding: 0.5rem 2rem 0.5rem 0.5rem;
+}
+
+/* ----------LARGER STYLES---------- */
+@media only screen and (min-width: 768px) {
+  body {
+    padding: 4rem 6rem;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--stone-100);
+  }
+
+  main {
+    width: 100%;
+    margin: auto;
+    padding: 2rem;
+    max-width: 750px;
+    background-color: var(--white);
+    border-radius: var(--border-radius-10);
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  }
+
+  img {
+    border-radius: var(--border-radius-10);
+  }
+}
