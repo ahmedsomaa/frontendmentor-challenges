@@ -1,0 +1,49 @@
+/* ---------GLOBAL STYLES---------*/
+@import url(../../globals.css);
+
+/* ---------STYLES---------*/
+ul {
+  display: grid;
+  list-style: none;
+  gap: 1rem;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+li {
+  padding: 0;
+  display: flex;
+  color: var(--newbie);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid var(--newbie);
+  border-radius: var(--border-radius);
+}
+
+li:hover {
+  border: none;
+  cursor: pointer;
+  color: var(--black);
+  border: 2px solid var(--black);
+  background-color: var(--newbie);
+}
+
+a {
+  width: 100%;
+  padding: 10px;
+  display: block;
+  color: inherit;
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    padding: 0;
+  }
+
+  ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
