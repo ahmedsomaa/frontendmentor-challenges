@@ -45,14 +45,14 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 #### Adding Border to Table Rows:
 
-I encountered a challenge with adding a border to table rows (<tr>). It worked when applied to <td> elements but not to <tr>. After some research, I learned about the `border-collapse` property, which allows borders to be applied to table rows effectively.
+I encountered a challenge with adding a border to table rows `<tr>`. It worked when applied to `<td>` elements but not to `<tr>`. After some research, I learned about the `border-collapse` property, which allows borders to be applied to table rows effectively.
 
-```cs
+```css
 table {
   border-collapse: collapse;
 }
 
-td, th {
+tr {
   border: 1px solid #ddd;
 }
 ```
