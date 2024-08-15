@@ -33,8 +33,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/ahmedsomaa/frontendmentor-challengs/tree/main/src/newbie/blog-preview-card)
-- Live Site URL: [Demo](https://ahmedsomaa.github.io/frontendmentor-challengs/src/newbie/blog-preview-card/)
+- Solution URL: [Solution](https://github.com/ahmedsomaa/frontendmentor-challenges/tree/main/src/newbie/blog-preview-card)
+- Live Site URL: [Demo](https://ahmedsomaa.github.io/frontendmentor-challenges/src/newbie/blog-preview-card/)
 
 ## My process
 

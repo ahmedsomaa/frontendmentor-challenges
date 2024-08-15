@@ -33,8 +33,8 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/ahmedsomaa/frontendmentor-challengs/tree/main/src/newbie/social-links-profile)
-- Live Site URL: [Demo](https://ahmedsomaa.github.io/frontendmentor-challengs/src/newbie/social-links-profile/)
+- Solution URL: [Solution](https://github.com/ahmedsomaa/frontendmentor-challenges/tree/main/src/newbie/social-links-profile)
+- Live Site URL: [Demo](https://ahmedsomaa.github.io/frontendmentor-challenges/src/newbie/social-links-profile/)
 
 ## My process
 
