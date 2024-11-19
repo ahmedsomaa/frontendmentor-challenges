@@ -1,0 +1,12 @@
+/* ---------TRACK STYLES---------*/
+@import url(../../track-styles.css);
+
+/* ---------STYLES---------*/
+li {
+  color: var(--advanced);
+  border-color: var(--advanced);
+}
+
+li:hover {
+  background-color: var(--advanced);
+}
