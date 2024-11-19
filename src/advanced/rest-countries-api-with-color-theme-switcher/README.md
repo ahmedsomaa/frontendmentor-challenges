@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Frontend Mentor - REST Countries API with color theme switcher
 
-## Getting Started
+![Design preview for the REST Countries API with color theme switcher coding challenge](./design/desktop-preview.jpg)
 
-First, run the development server:
+## Table of contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Screenshot
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+#### Desktop
 
-## Learn More
+##### Home Light Mode
 
-To learn more about Next.js, take a look at the following resources:
+![Home Light Screenshot](./design/desktop-home-light-preview.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+##### Home Dark Mode
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+![Home Dark Screenshot](./design/desktop-home-dark-preview.png)
 
-## Deploy on Vercel
+##### Details Light Mode
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Details Light Screenshot](./design/desktop-detail-light-preview.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+##### Details Dark Mode
+
+![Details Dark Screenshot](./design/desktop-detail-light-preview.png)
+
+#### Mobile
+
+##### Home Light Mode
+
+![Home Light Screenshot](./design/mobile-home-light-preview.png)
+
+##### Home Dark Mode
+
+![Home Dark Screenshot](./design/mobile-home-dark-preview.png)
+
+##### Details Light Mode
+
+![Details Light Screenshot](./design/mobile-details-light-preview.png)
+
+##### Details Dark Mode
+
+![Details Dark Screenshot](./design/mobile-details-dark-preview.png)
+
+### Links
+
+- Solution URL: [Solution](https://github.com/ahmedsomaa/frontendmentor-challenges/tree/main/src/advanced/rest-countries-api-with-color-theme-switcher)
+- Live Site URL: [Demo](https://ahmedsomaa.github.io/frontendmentor-challenges/src/newbie/social-links-profile/)
+
+## My process
+
+### Built with
+
+- Next.js
+- TailwindCSS
+- Shadcn/ui
+- Tanstack Query
+
+## Author
+
+- Website - [Som3aware.vercel.app](https://som3aware.vercel.app)
+- Frontend Mentor - [@ahmedsomaa](https://www.frontendmentor.io/profile/ahmedsomaa)
+- Twitter - [@som3aware](https://www.x.com/som3aware)
