@@ -22,7 +22,7 @@ export default function Home() {
   });
 
   return (
-    <div className="grid grid-cols-1 p-4">
+    <div className="grid grid-cols-1 p-8">
       {/* ___FILTERS___ */}
       <Filters
         region={region}

@@ -11,16 +11,16 @@ export async function CountryDetails({ name }: { name: string }) {
   const country = await getCountry({ name });
 
   return (
-    <div className="container mx-auto px-4 py-8 space-y-16">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+    <div className="container px-8 py-8 space-y-16">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         <div className="w-full">
           <Image
+            priority
             width={560}
             height={400}
+            className="shadow-md"
             src={country.flags.svg}
             alt={country.name.common}
-            className="w-full h-auto rounded-lg shadow-md"
-            priority
           />
         </div>
         <div className="space-y-8">

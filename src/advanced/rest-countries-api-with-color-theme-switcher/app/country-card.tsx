@@ -51,11 +51,11 @@ export function CountryCardSkeleton() {
         <Skeleton className="w-full h-full rounded-t-lg" />
       </CardHeader>
       <CardContent className="p-4 space-y-4">
+        <Skeleton className="w-3/4 h-6" />
         <div className="space-y-2">
-          <Skeleton className="w-full h-4" />
-          <Skeleton className="w-full h-4" />
-          <Skeleton className="w-full h-4" />
-          <Skeleton className="w-full h-4" />
+          <Skeleton className="w-2/4 h-4" />
+          <Skeleton className="w-2/4 h-4" />
+          <Skeleton className="w-2/4 h-4" />
         </div>
       </CardContent>
     </Card>
