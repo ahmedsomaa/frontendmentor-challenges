@@ -7,8 +7,8 @@ import { Badge } from "@/components/ui/badge";
 import { Skeleton } from "@/components/ui/skeleton";
 
 // --------- COMPONENT ---------
-export async function CountryDetails({ name }: { name: string }) {
-  const country = await getCountry({ name });
+export async function CountryDetails({ code }: { code: string }) {
+  const country = await getCountry({ code });
 
   return (
     <div className="container px-8 py-8 space-y-16">

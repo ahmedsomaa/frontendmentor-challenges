@@ -7,7 +7,7 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 // --------- COMPONENT ---------
 export function CountryCard({ country }: Readonly<{ country: Country }>) {
   return (
-    <Link href={`/country/${country.name.common}`}>
+    <Link href={`/country/${country.cca2.toLowerCase()}`}>
       <Card
         key={country.name.common}
         className="rounded-lg h-[400px] dark:bg-slate-800"

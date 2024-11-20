@@ -7,9 +7,9 @@ import { CountryDetailsSkeleton, CountryDetails } from "./country";
 export default async function CountryPage({
   params,
 }: {
-  params: Promise<{ name: string }>;
+  params: Promise<{ code: string }>;
 }) {
-  const { name } = await params;
+  const { code } = await params;
   return (
     <div className="grid grid-cols-1 p-8 text-base">
       <div className="flex justify-start px-8 py-4">
@@ -22,7 +22,7 @@ export default async function CountryPage({
         </Link>
       </div>
       <Suspense fallback={<CountryDetailsSkeleton />}>
-        <CountryDetails name={name} />
+        <CountryDetails code={code} />
       </Suspense>
     </div>
   );

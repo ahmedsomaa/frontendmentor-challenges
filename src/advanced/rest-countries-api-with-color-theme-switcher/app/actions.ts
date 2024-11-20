@@ -26,12 +26,12 @@ export async function getCountries({
 }
 
 export async function getCountry({
-  name,
+  code,
 }: {
-  readonly name: string;
+  readonly code: string;
 }): Promise<Country> {
   const res = await fetch(
-    `https://restcountries.com/v3.1/name/${name}?fullText=true`
+    `https://restcountries.com/v3.1/alpha/${code}?fullText=true`
   );
   if (!res.ok) {
     throw new Error(`Failed to fetch country!`);
